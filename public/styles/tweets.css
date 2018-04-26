@@ -1,0 +1,81 @@
+.individual-tweets {
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 2em;
+  opacity: 0.5;
+}
+
+.individual-tweets:hover {
+  opacity: 1;
+  border: 1px solid black;
+}
+
+.individual-tweets .icons {
+  opacity: 0;
+}
+
+.individual-tweets:hover .icons{
+  opacity: 1;
+}
+
+.individual-tweets header {
+  background-color: #eee;
+  height: 80px;
+  width: 100%;
+  padding: 0.5em;
+  border-radius : 5px 5px 0 0;
+}
+
+.individual-tweets header img {
+  float: left;
+  width: 65px;
+  height: 65px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.individual-tweets header h2 {
+  float: left;
+  margin: 5px;
+  color: #708090;
+}
+
+.individual-tweets header h2:hover {
+  float: left;
+  margin: 5px;
+  color: solid black;
+}
+
+.individual-tweets header span {
+  float: right;
+  margin-top: 5px;
+  color: #708090;
+}
+
+
+.individual-tweets article p{
+  padding: 0.5em;
+  text-align: left;
+
+}
+
+.individual-tweets footer {
+  border-top: 1px solid silver;
+  padding-left: 0.5em;
+  width:  100%;
+  height: 40px;
+}
+
+.individual-tweets footer p {
+  font-size: 10px;
+  float: left;
+  width: 80px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.individual-tweets footer .icons {
+  padding: 0.5em;
+  float: right;
+}

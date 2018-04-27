@@ -12,7 +12,7 @@ var createTweetElement = function (tweet) {
           </article>
 
           <footer>
-            <p>${tweet["created_at"]}</p>
+            <p class="time">${datePassed(tweet["created_at"])}</p>
             <div class="icons">
               <i class="fas fa-flag"></i>
               <i class="fas fa-retweet"></i>
@@ -66,7 +66,7 @@ $( document ).ready(function() {
   loadTweets();
 
   $("#submit-toggle").on("click", function(){
-    $(".new-tweet").toggle();
+    $(".new-tweet").slideToggle();
     $(".new-tweet-form-textarea").focus();
   });
 
@@ -81,20 +81,3 @@ $( document ).ready(function() {
     }
   });
 });
-
-
-//
-//
-//
-// date = new Date(1461113959088)
-// now = new Date()
-//
-// lef diff = now - date
-// if (diff > 60000){
-//   console.log(diff/1000 + "seconds ago")
-// } else if (diff > 100000 )  {
-//   console.log(diff/60000 + "minutes ago")
-// } else if (diff > 1000000) {
-//   console.log(diff/36000000 + "hours ago")
-// } else if (diff > 100000000) {
-//   console.log(diff/36000000 + "minutes ago")

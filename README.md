@@ -20,4 +20,6 @@ Tweeter is a simple, single-page Twitter clone.
 
 ## Final Product
 
-!["Screenshot of the Tweeter homepage "]()
+!["Screenshot of the Tweeter homepage "](https://github.com/cemhekimoglu/tweeter/blob/master/docs/tweeter-homepage.png)
+!["When a tweet is being highlighted "](https://github.com/cemhekimoglu/tweeter/blob/master/docs/tweeter-highlighted.png)
+!["Toggled compose button  "](https://github.com/cemhekimoglu/tweeter/blob/master/docs/tweeter-compose-toggled.png)
